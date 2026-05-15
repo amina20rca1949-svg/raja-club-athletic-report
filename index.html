@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rapport Général - Raja Club Athletic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #f4f7f4;
+      color: #1c1c1c;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #008f39, #00b050);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header img {
+      width: 120px;
+      margin-bottom: 15px;
+      background: white;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #008f39;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #005d25;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    .section-title {
+      font-size: 32px;
+      color: #008f39;
+      margin-bottom: 25px;
+      border-left: 6px solid #008f39;
+      padding-left: 15px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #008f39;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    table th, table td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+      background: #008f39;
+      color: white;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background: #008f39;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+    }
+
+    .highlight {
+      color: #008f39;
+      font-weight: bold;
+    }
+
+    @media(max-width:768px) {
+      header h1 {
+        font-size: 30px;
+      }
+
+      nav {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/fr/5/5c/Raja_Club_Athletic_logo.svg" alt="Logo Raja">
+    <h1>Rapport Général de Fin de Saison</h1>
+    <p>Raja Club Athletic - Saison 2025 / 2026</p>
+  </header>
+
+  <nav>
+    <a href="#resume">Résumé</a>
+    <a href="#statistiques">Statistiques</a>
+    <a href="#effectif">Effectif</a>
+    <a href="#matchs">Matchs</a>
+    <a href="#trophees">Trophées</a>
+    <a href="#galerie">Galerie</a>
+    <a href="#finances">Finances</a>
+  </nav>
+
+  <section id="resume">
+    <h2 class="section-title">Résumé de la Saison</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Classement</h3>
+        <p>Le Raja termine la saison à la <span class="highlight">2ème place</span> du championnat.</p>
+      </div>
+
+      <div class="card">
+        <h3>Performance</h3>
+        <p>Une saison marquée par une forte domination offensive et un excellent parcours continental.</p>
+      </div>
+
+      <div class="card">
+        <h3>Supporters</h3>
+        <p>Une affluence record et un soutien exceptionnel des supporters durant toute la saison.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="statistiques">
+    <h2 class="section-title">Statistiques Générales</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Matchs Joués</h3>
+        <p>42</p>
+      </div>
+
+      <div class="card">
+        <h3>Victoires</h3>
+        <p>28</p>
+      </div>
+
+      <div class="card">
+        <h3>Buts Marqués</h3>
+        <p>71</p>
+      </div>
+
+      <div class="card">
+        <h3>Clean Sheets</h3>
+        <p>18</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="effectif">
+    <h2 class="section-title">Effectif</h2>
+
+    <table>
+      <tr>
+        <th>Joueur</th>
+        <th>Poste</th>
+        <th>Matchs</th>
+        <th>Buts</th>
+      </tr>
+
+      <tr>
+        <td>Joueur 1</td>
+        <td>Attaquant</td>
+        <td>32</td>
+        <td>18</td>
+      </tr>
+
+      <tr>
+        <td>Joueur 2</td>
+        <td>Milieu</td>
+        <td>30</td>
+        <td>9</td>
+      </tr>
+
+      <tr>
+        <td>Joueur 3</td>
+        <td>Défenseur</td>
+        <td>34</td>
+        <td>2</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="matchs">
+    <h2 class="section-title">Moments Clés de la Saison</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Derby de Casablanca</h3>
+        <p>Victoire historique dans une ambiance exceptionnelle.</p>
+      </div>
+
+      <div class="card">
+        <h3>Ligue des Champions</h3>
+        <p>Qualification jusqu'aux demi-finales après une campagne remarquable.</p>
+      </div>
+
+      <div class="card">
+        <h3>Série de Victoires</h3>
+        <p>8 victoires consécutives durant la deuxième moitié de saison.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="trophees">
+    <h2 class="section-title">Trophées & Récompenses</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Meilleur Buteur</h3>
+        <p>Joueur 1 - 18 buts</p>
+      </div>
+
+      <div class="card">
+        <h3>Meilleur Joueur</h3>
+        <p>Joueur 2</p>
+      </div>
+
+      <div class="card">
+        <h3>Prix Fair-Play</h3>
+        <p>Raja Club Athletic</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galerie">
+    <h2 class="section-title">Galerie</h2>
+
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop" alt="Raja supporters">
+      <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=1200&auto=format&fit=crop" alt="Football match">
+      <img src="https://images.unsplash.com/photo-1547347298-4074fc3086f0?q=80&w=1200&auto=format&fit=crop" alt="Team celebration">
+    </div>
+  </section>
+
+  <section id="administration">
+    <h2 class="section-title">Administration & Organisation</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Président du Club</h3>
+        <p>M. Nom du Président</p>
+      </div>
+
+      <div class="card">
+        <h3>Staff Technique</h3>
+        <p>Entraîneur principal, préparateurs physiques, analystes vidéo et staff médical.</p>
+      </div>
+
+      <div class="card">
+        <h3>Effectif Administratif</h3>
+        <p>42 employés administratifs et techniques durant la saison.</p>
+      </div>
+
+      <div class="card">
+        <h3>Budget Opérationnel</h3>
+        <p>Gestion des dépenses sportives, déplacements et logistique.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="performances-detaillees">
+    <h2 class="section-title">Performances Détaillées</h2>
+
+    <table>
+      <tr>
+        <th>Indicateur</th>
+        <th>Valeur</th>
+      </tr>
+
+      <tr>
+        <td>Nombre de Victoires</td>
+        <td>28</td>
+      </tr>
+
+      <tr>
+        <td>Nombre de Matchs Nuls</td>
+        <td>9</td>
+      </tr>
+
+      <tr>
+        <td>Nombre de Défaites</td>
+        <td>5</td>
+      </tr>
+
+      <tr>
+        <td>Buts Marqués</td>
+        <td>71</td>
+      </tr>
+
+      <tr>
+        <td>Buts Encaissés</td>
+        <td>29</td>
+      </tr>
+
+      <tr>
+        <td>Différence de Buts</td>
+        <td>+42</td>
+      </tr>
+
+      <tr>
+        <td>Clean Sheets</td>
+        <td>18</td>
+      </tr>
+
+      <tr>
+        <td>Possession Moyenne</td>
+        <td>61%</td>
+      </tr>
+
+      <tr>
+        <td>Passes Réussies</td>
+        <td>84%</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="blessures">
+    <h2 class="section-title">Rapport Médical & Blessures</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Blessures Musculaires</h3>
+        <p>12 blessures enregistrées durant la saison.</p>
+      </div>
+
+      <div class="card">
+        <h3>Temps Moyen d'Absence</h3>
+        <p>18 jours par joueur blessé.</p>
+      </div>
+
+      <div class="card">
+        <h3>Suivi Médical</h3>
+        <p>Programme de récupération et prévention renforcé.</p>
+      </div>
+
+      <div class="card">
+        <h3>Préparation Physique</h3>
+        <p>Optimisation des performances et réduction des risques physiques.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="deplacements">
+    <h2 class="section-title">Déplacements & Logistique</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Déplacements Nationaux</h3>
+        <p>24 déplacements à travers le Maroc.</p>
+      </div>
+
+      <div class="card">
+        <h3>Déplacements Internationaux</h3>
+        <p>6 voyages continentaux en compétitions africaines.</p>
+      </div>
+
+      <div class="card">
+        <h3>Organisation</h3>
+        <p>Gestion complète du transport, hébergement et sécurité.</p>
+      </div>
+
+      <div class="card">
+        <h3>Supporters en Déplacement</h3>
+        <p>Présence massive des supporters lors des grands matchs.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="discipline">
+    <h2 class="section-title">Discipline & Arbitrage</h2>
+
+    <table>
+      <tr>
+        <th>Statistique</th>
+        <th>Total</th>
+      </tr>
+
+      <tr>
+        <td>Cartons Jaunes</td>
+        <td>67</td>
+      </tr>
+
+      <tr>
+        <td>Cartons Rouges</td>
+        <td>4</td>
+      </tr>
+
+      <tr>
+        <td>Fautes Comises</td>
+        <td>412</td>
+      </tr>
+
+      <tr>
+        <td>Penalties Obtenus</td>
+        <td>9</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="finances">
+    <h2 class="section-title">Résumé Financier</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Revenus</h3>
+        <p>45 Millions MAD</p>
+      </div>
+
+      <div class="card">
+        <h3>Dépenses</h3>
+        <p>37 Millions MAD</p>
+      </div>
+
+      <div class="card">
+        <h3>Bénéfice</h3>
+        <p>8 Millions MAD</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Raja Club Athletic - Rapport Général de Fin de Saison</p>
+  </footer>
+
+</body>
+</html>
